@@ -1,9 +1,10 @@
 import React from 'react'
+import Image from 'next/image'
 
 const RightTestimony = () => {
   return (
     <div className='basis-1/2 lg:p-8 pt-8'>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas asperiores quaerat animi iure assumenda aspernatur quas, saepe excepturi, alias accusamus fugiat. Reiciendis et dolores, molestiae iste ipsam delectus soluta quia.
+      <Image src='/images/Contents.png' width={500} height={500} alt='testimony' />
     </div>
   )
 }
