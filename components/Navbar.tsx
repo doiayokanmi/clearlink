@@ -20,7 +20,7 @@ const Navbar = () => {
           <Image src="/images/logo.png" width={100} height={100} alt="logo" />
         </Link>
 
-        <div className={`${isOpen ? 'translate-x-0' : '-translate-x-[500px]'} transition-all duration-300 fixed w-1/2 overflow-hidden p-4 lg:p-0 h-screen lg:h-auto bg-[#F2F4F7] lg:w-auto top-0 left-0 z-50 lg:static flex flex-col lg:flex-row text-sm gap-6`}>
+        <div className={`${isOpen ? 'translate-x-0' : '-translate-x-[500px]'} lg:translate-x-0 transition-all duration-300 fixed w-1/2 overflow-hidden p-4 lg:p-0 h-screen lg:h-auto bg-[#F2F4F7] lg:w-auto top-0 left-0 z-50 lg:static flex flex-col lg:flex-row text-sm gap-6`}>
           {
             links.map((link, index) => (
               <Link key={index} className="flex text-gray-500 items-center gap-2" href="/dashboard">{link.name} {link.drop && <ChevronDown size={12} />} </Link>
