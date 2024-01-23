@@ -55,7 +55,7 @@ const ClearAdv = () => {
 
                 <div className="basis-1/3 pt-8 relative">
                     <Image className='hidden lg:block absolute -top-[120px] left-1/2 -translate-x-1/2' src={'/images/svg/arrow.svg'} width={200} height={200} alt='arrow' />
-                    <Image src={'/images/rectangle 1.png'} width={500} height={500} alt="Rectangle" />
+                    <Image src={'/images/Rectangle.png'} width={500} height={500} alt="Rectangle" />
                 </div>
             </div>
         </>
