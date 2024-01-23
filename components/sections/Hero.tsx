@@ -5,7 +5,7 @@ import RightHero from '../RightHero'
 const Hero = () => {
     return (
         <>
-            <div className="flex-1 flex gap-4 items-center justify-between">
+            <div className="flex-1 flex flex-col lg:flex-row gap-4 items-center justify-between">
                 <LeftHero />
                 <RightHero />
             </div>

@@ -6,7 +6,7 @@ import RightTestimony from '../RightTestimony'
 const Testimony = () => {
   return (
     <>
-    <div className="px-24 py-12 flex bg-gray-100">
+    <div className="lg:px-24 lg:py-12 p-4 flex flex-col lg:flex-row bg-gray-100">
         <LeftTestimony />
         <RightTestimony />
       </div>

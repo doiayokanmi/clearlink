@@ -12,8 +12,8 @@ import Image from 'next/image'
 const LeftHero = () => {
     return (
         <>
-            <motion.div initial={{ x: -500 }} animate={{ x: 0 }} exit={{ x: -500 }} transition={{ duration: 0.5, delay: 0.5 }} className="basis-1/2 pe-2">
-                <h1 className="text-5xl font-bold">
+            <motion.div initial={{ x: -500 }} animate={{ x: 0 }} exit={{ x: -500 }} transition={{ duration: 0.5, delay: 0.5 }} className="basis-1/2 lg:pe-2 py-4">
+                <h1 className="text-center lg:text-start text-5xl font-bold">
                     Uniting the world,one video call at a time
                 </h1>
 
@@ -21,7 +21,7 @@ const LeftHero = () => {
                     Experience the future of communication with ClearLink – where crystal-clear video conferencing meets unparalleled simplicity.
                 </p>
 
-                <div className="flex items-center gap-4">
+                <div className="flex justify-between lg:justify-start items-center lg:gap-4">
                     <Button variant="blue" size="rd">
                         Start your free trial
                     </Button>

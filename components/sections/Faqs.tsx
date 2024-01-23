@@ -8,8 +8,8 @@ import { motion } from 'framer-motion'
 const Faqs = () => {
     const [active, setActive] = useState(0)
     return (
-        <section className='px-24 py-12 flex'>
-            <motion.div initial={{x: -300}} whileInView={{x: 0}} transition={{duration: 0.5}} className="basis-1/2 pe-16 ">
+        <section className='lg:px-24 lg:py-12 p-4 flex flex-col lg:flex-row'>
+            <motion.div initial={{x: -300}} whileInView={{x: 0}} transition={{duration: 0.5}} className="basis-1/2 lg:pe-16 pb-8 ">
                 <h6 className="text-blue-700 font-semibold">
                     Support
                 </h6>

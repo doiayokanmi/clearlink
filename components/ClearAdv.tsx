@@ -28,7 +28,7 @@ const ClearAdv = () => {
     ]
     return (
         <>
-            <div className="px-24 py-12 flex justify-between items-end">
+            <div className="p-4 lg:pt-8 lg:px-24 lg:py-12 flex flex-col lg:flex-row justify-between items-end">
                 <div className="basis-2/3">
                     <p className="text-blue-700 font-semibold">
                         The ClearLink Advantage
@@ -43,7 +43,7 @@ const ClearAdv = () => {
                     </p>
 
 
-                    <div className="mt-12 flex flex-wrap">
+                    <div className="mt-12 flex flex-col lg:flex-row flex-wrap">
                         {
                             clearLinks.map((clearLink, index) => (
                                 <ClearLink key={index} title={clearLink.title} content={clearLink.content} icon={clearLink.icon} />
@@ -53,8 +53,8 @@ const ClearAdv = () => {
                     </div>
                 </div>
 
-                <div className="basis-1/3 relative">
-                    <Image className='absolute -top-[150px] left-1/2 -translate-x-1/2' src={'/images/svg/arrow.svg'} width={200} height={200} alt='arrow' />
+                <div className="basis-1/3 pt-8 relative">
+                    <Image className='hidden lg:block absolute -top-[120px] left-1/2 -translate-x-1/2' src={'/images/svg/arrow.svg'} width={200} height={200} alt='arrow' />
                     <Image src={'/images/rectangle 1.png'} width={500} height={500} alt="Rectangle" />
                 </div>
             </div>

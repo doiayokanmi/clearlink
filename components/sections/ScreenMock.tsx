@@ -6,8 +6,8 @@ import { CheckCircle2 } from 'lucide-react'
 const ScreenMock = () => {
     const list  = ['30 days free trial', 'Cancel at any time', 'Access to all features', 'Personalized onboarding']
   return (
-    <section className='flex ps-24 pt-12'>
-        <div className="basis-1/2 pe-12">
+    <section className='flex flex-col lg:flex-row lg:ps-24 lg:pt-12'>
+        <div className="basis-1/2 p-4 lg:pe-12">
             <h1 className="py-4 font-semibold text-4xl">
             Ready to clear the path to perfect communication?
             </h1>

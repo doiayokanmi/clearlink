@@ -10,7 +10,7 @@ const RightHero = () => {
 
     return (
         <>
-            <motion.div initial={{ x: 500 }} animate={{ x: 0 }} exit={{ x: 500 }} transition={{ duration: 0.5, delay: 0.5 }} className="basis-1/2 px-8">
+            <motion.div initial={{ x: 500 }} animate={{ x: 0 }} exit={{ x: 500 }} transition={{ duration: 0.5, delay: 0.5 }} className="basis-1/2 lg:px-8">
                 <div className="rounded-sm bg-[#EFF8FF] p-4">
                     <div className="flex justify-between flex-wrap">
                         {

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const LeftTestimony = () => {
   return (
     <>
-    <div className="basis-1/2 pe-6 space-y-6">
+    <div className="basis-1/2 lg:pe-6 space-y-6">
           <Image src={'/images/svg/Shopify.com svg.svg'} width={80} height={20} alt="shopify" />
 
           <div className="flex gap-2">

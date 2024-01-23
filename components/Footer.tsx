@@ -6,8 +6,8 @@ const Footer = () => {
     const date = new Date()
     const year = date.getFullYear()
   return (
-    <footer className='bg-gray-50 flex items-center justify-between px-24 p-4'>
-        <p className='text-sm text-gray-600'>
+    <footer className='bg-gray-50 flex flex-col lg:flex-row gap-4 items-center justify-between lg:px-24 p-4'>
+        <p className='text-sm text-center text-gray-600'>
         © {year} ClearLink. All rights reserved.
         </p>
 

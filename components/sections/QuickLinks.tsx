@@ -5,7 +5,7 @@ import { quickLinks } from "@/util";
 
 const QuickLinks = () => {
   return (
-    <section className="flex justify-between px-24 py-12">
+    <section className="flex flex-col lg:flex-row justify-between p-4 py-8 lg:px-24 lg:py-12">
       <div className="basis-1/4">
         <Link href="/">
           <Image src="/images/logo.png" width={100} height={100} alt="logo" />
@@ -16,7 +16,7 @@ const QuickLinks = () => {
         </p>
       </div>
 
-      <div className="basis-2/4 px-12 flex-1 text-sm font-semibold flex justify-between items-center">
+      <div className="basis-2/4 lg:px-12 flex-1 text-sm font-semibold flex flex-wrap justify-between items-center">
         {
             quickLinks.map((qLink, index) => (
                 <div key={index}>
@@ -37,7 +37,7 @@ const QuickLinks = () => {
         }
       </div>
 
-      <div className="px-4 flex flex-col space-y-4">
+      <div className="lg:px-4 py-4 lg:py-0 flex flex-col space-y-4">
         <h2 className="text-blue-700 font-semibold">
         Get the app
         </h2>

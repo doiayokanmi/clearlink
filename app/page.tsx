@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="lg:px-24 px-4 h-screen">
+      <div className="lg:px-24 px-4 lg:h-screen">
         <div className="bg-bg flex flex-col py-4 h-full">
           <Navbar />
           <Hero />
